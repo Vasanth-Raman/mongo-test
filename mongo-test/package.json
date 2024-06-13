@@ -1,0 +1,23 @@
+{
+  "name": "mongo-test",
+  "version": "1.0.0",
+  "description": "mongo DB practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "mongo",
+    "db",
+    "database"
+  ],
+  "author": "Vasanth",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1",
+    "nodemon": "^3.1.3"
+  }
+}
